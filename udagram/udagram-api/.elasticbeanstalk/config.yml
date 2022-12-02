@@ -1,11 +1,11 @@
 branch-defaults:
   default:
-    environment: null
+    environment: Udagramapi-env
     group_suffix: null
 global:
   application_name: udagram-api
   branch: null
-  default_ec2_keyname: null
+  default_ec2_keyname: vockey
   default_platform: Node.js 14 running on 64bit Amazon Linux 2
   default_region: us-east-1
   include_git_submodules: true
