@@ -49,6 +49,10 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
+          name: Setup AWS EB Credentials
+          commands: |
+            chmod +x ./bin/env.sh && ./bin/env.sh
+      - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
