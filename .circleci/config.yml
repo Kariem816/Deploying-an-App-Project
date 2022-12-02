@@ -50,7 +50,7 @@ jobs:
       - checkout
       - run:
           name: Setup AWS EB Credentials
-          commands: |
+          command: |
             chmod +x ./bin/env.sh && ./bin/env.sh
       - run:
           name: Deploy App
