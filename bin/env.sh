@@ -4,7 +4,7 @@ set -e
 
 AWS_CONFIG_FILE=$HOME/.aws/config
 
-mkdir $HOME/.aws
+mkdir -p $HOME/.aws
 touch $AWS_CONFIG_FILE
 chmod 600 $AWS_CONFIG_FILE
 
