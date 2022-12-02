@@ -45,7 +45,7 @@ jobs:
     steps:
       - node/install:
           node-version: '14.15' 
-      - eb-cli/setup
+      - eb/setup
       - aws-cli/setup
       - checkout
       - run:
