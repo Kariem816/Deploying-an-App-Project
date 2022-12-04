@@ -17,9 +17,13 @@ The pipeline is run using CircleCI.
 Workflow jobs are described below:
 
 - **build**: This job builds the both the frontend and the backend.
+
 ![Picture of build job](../screenshots/build_job.png)
 
 - **hold**: This job holds the pipeline until the deployment is approved manually.
 
+![Picture of approving manually](../screenshots/approve.png)
+
 - **deploy**: This job deploys the application to AWS.
+
 ![Picture of deploy job](../screenshots/deploy_job.png)
