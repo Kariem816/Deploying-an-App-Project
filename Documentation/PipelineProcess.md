@@ -1,10 +1,15 @@
 # Pipeline Process
 
 This document describes the pipeline process used to deploy the application.
+**Pipeline Diagram**
+
+![Picture of pipeline diagram](../screenshots/Pipeline_diagram.png)
 
 ## Pipeline
 
 The pipeline is run using CircleCI.
+
+**CircleCI Configuration**
 
 ![Picture of CircleCI configuration](../screenshots/circleci_config.png)
 
