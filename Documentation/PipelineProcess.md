@@ -6,6 +6,8 @@ This document describes the pipeline process used to deploy the application.
 
 The pipeline is run using CircleCI.
 
+![Picture of CircleCI configuration](../screenshots/circleci_config.png)
+
 > You can see the pipeline [here](../.circleci/config.yml).
 
 ### Workflow
