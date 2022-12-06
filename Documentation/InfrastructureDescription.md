@@ -2,7 +2,7 @@
 
 **Infrestructure Diagram**
 
-![Infrastructure Diagram](../screenshots/infrastructure_diagram.png)
+![Infrastructure Diagram](../screenshots/Infrastructure_diagram.png)
 
 The infrastructure of this project is composed of three parts:
 
